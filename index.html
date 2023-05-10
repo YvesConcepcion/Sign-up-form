@@ -8,49 +8,61 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Get Started</h1>
-    <div>
-      <p>Let's do this!</p>
-    </div>
-    <ul>
-      <form>
-        <ul>
-          <li>
-            <label for="first_name">FIRST NAME</label>
-            <br />
-            <input type="text" name="first_name" id="first_name" />
-          </li>
-          <li>
-            <label for="last_name">LAST NAME</label>
-            <br />
-            <input type="text" name="last_name" id="last_name" />
-          </li>
-          <li>
-            <label for="email">EMAIL</label>
-            <br />
-            <input type="email" name="email" id="email" />
-          </li>
-          <li>
-            <label for="phone">PHONE NUMBER</label>
-            <br />
-            <input type="tel" name="phone_number" id="phone_number" />
-          </li>
-          <li>
-            <label for="password">PASSWORD</label>
-            <br />
-            <input type="password" name="password" id="password" />
-          </li>
-          <li>
-            <label for="confirm_password">CONFIRM PASSWORD</label>
-            <br />
-            <input
-              type="password"
-              name="confirm_password"
-              id="confirm_password"
-            />
-          </li>
-        </ul>
+    <div class="main">
+      <div class="hero">
+        <header>Basket</header>
+      </div>
+      <div class="form-section">
+        <div class="header">
+          <h1>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started.
+          </h1>
+        </div>
+        <div class="form">
+          <form action="#" method="get">
+            <div class="input">
+              <label for="first_name">FIRST NAME</label>
+              <input type="text" name="first_name" id="first_name" required/>
+            </div>
+            <div class="input">
+              <label for="last_name">LAST NAME</label>
+              <input type="text" name="last_name" id="last_name" required/>
+            </div>
+            <div class="input">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" required/>
+            </div>
+            <div class="input">
+              <label for="phone">PHONE NUMBER</label>
+              <input
+                type="tel"
+                name="phone_number"
+                id="phone_number"
+                min="9"
+                max="12"
+                required/>
+            </div>
+            <div class="input">
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password" required/>
+            </div>
+            <div class="input">
+              <label for="confirm_password">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                name="confirm_password"
+                id="confirm_password"
+                required />
+            </div>
+        </div>
+        <div class="submit-container">
+          <button class="create_account" type="submit">Create Account</button>
+          <h2>Already have an account? <span>Log in</span></h2>
+        </div>
       </form>
-    </ul>
+      </div>
+    </div>
   </body>
 </html>
