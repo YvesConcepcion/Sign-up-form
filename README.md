@@ -10,6 +10,7 @@ This repository is solely for learning and is part of the curriculum for "The Od
 - CSS Flexbox
 - CSS Positioning
 - Semantic HTML
+- Default CSS Styles (CSS Reset)
 
 ## To DO: 
 - Optimize for mobile
